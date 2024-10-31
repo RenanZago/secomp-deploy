@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-        commad: echo "Bem vindo ao CircleCI!"
+        command: echo "Bem vindo ao CircleCI!"
 
 workflows:
   hello-world:
